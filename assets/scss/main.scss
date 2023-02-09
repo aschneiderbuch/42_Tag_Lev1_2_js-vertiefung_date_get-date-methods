@@ -42,8 +42,10 @@ section {
         label {
             font-size: 0.9rem;
 
-            span{
-                color: black;
+            span {
+                // damit : Punkte nach oben rutschen
+                color: black; // damit Punkt verschwindet 
+
             }
         }
 
@@ -65,7 +67,7 @@ section {
 
         article {
             margin: 5px;
-            
+
             label {
                 font-size: 0.6rem;
             }
