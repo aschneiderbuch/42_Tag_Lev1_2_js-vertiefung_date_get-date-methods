@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,20 +11,51 @@
         sass --watch assets/scss/main.scss assets/css/style.css
      -->
 </head>
-<body>
-    
-<section>
 
- <p>Fri</p>
- <p>03</p>
- <p>:</p>
- <p>31</p>
- <p>:</p>
- <p>27</p>
- <p>PM</p>
-    
-</section>
+<body>
+
+    <section>
+
+        <article>
+            <p>Fri</p>
+            <label for="">DAY</label>
+        </article>
+
+        <article>
+            <p>03</p>
+            <label for="">HOURS</label>
+        </article>
+
+        <article>
+            <p>:</p>
+            <label for=""><span>.</span></label>
+        </article>
+
+        <article>
+            <p>31</p>
+            <label for="">MINUTES</label>
+        </article>
+
+        <article>
+            <p>:</p>
+            <label for=""><span>.</span></label>
+            <!-- span  - damit : Punkte nach oben rutschen -->
+        </article>
+
+        <article>
+            <p>27</p>
+            <label for="">SECONDS</label>
+
+        </article>
+
+        <article>
+            <p>PM</p>
+            <label for="">PERIOD</label>
+        </article>
+
+    </section>
 
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>

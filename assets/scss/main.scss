@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: black;
+    max-width: 1440px;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    width: 45vw;
+    height: 90px;
+
+    margin-top: 40vh;
+
+    color: white;
+    font-size: 3rem;
+
+    border: 2px solid yellowgreen;
+    border-radius: 20px;
+    box-shadow: 10px 5px 20px red;
+
+    article {
+
+        margin: 20px;
+        text-align: center;
+
+        p {
+            margin-bottom: -20px;
+        }
+
+        label {
+            font-size: 0.9rem;
+
+            span{
+                color: black;
+            }
+        }
+
+
+    }
+}
+
+
+
+/* ********* Media Qiery  ***************  */
+
+@media only screen and (max-width: 430px) {
+
+
+    section {
+        font-size: 2rem;
+
+        width: 90vw;
+
+        article {
+            margin: 5px;
+            
+            label {
+                font-size: 0.6rem;
+            }
+        }
+    }
+}
